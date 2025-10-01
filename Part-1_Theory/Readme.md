@@ -81,7 +81,7 @@ A typical **System-on-Chip (SoC)** integrates several essential components on a 
 
 The SoC design flow defines the stages from conceptualization to implementation. It starts with specification, functional modeling, RTL design, verification, synthesis, and finally physical implementation. Following a systematic flow ensures correctness and efficiency in SoC design.  
 
-![SoC Design Flow](.Screenshots/soc_design_flow.png)
+![SoC Design Flow](Screenshots/soc_design_flow.png)
 
 ---
 
@@ -98,26 +98,26 @@ The SoC design flow defines the stages from conceptualization to implementation.
    - A small RISC-V processor designed for rapid educational deployment.  
    - Demonstrates basic CPU operations, instruction execution, and SoC integration.  
 
-   ![RVMyth SoC](.Screenshots/vsd_babysoc.png)
+   ![RVMyth SoC](Screenshots/vsd_babysoc.png)
 
 2. **PLL (Phase-Locked Loop)**  
    - Generates stable and synchronized clock signals necessary for proper SoC operation.  
    - Prevents timing errors that could occur if off-chip clocks were used.  
    - Ensures the system operates reliably even when different components have different timing requirements.  
    *(Screenshot placeholder)*  
-   ![PLL Block Diagram](.Screenshots/pll.png)
+   ![PLL Block Diagram](Screenshots/pll.png)
 
 3. **DAC (Digital-to-Analog Converter)**  
    - Converts digital signals from the processor into analog signals for output devices.  
    - Two common types:  
      - **Weighted Binary Resistor DAC** – uses a set of resistors weighted by binary values.
  
-   ![DAC Block Diagram](.Screenshots/Weighted_Resistor_DAC.png)  
+   ![DAC Block Diagram](Screenshots/Weighted_Resistor_DAC.png)  
 
 
      - **R-2R Resistor DAC** – uses a resistor ladder for precise conversion.  
 
-        ![DAC Block Diagram](.Screenshots/R-2R.png)  
+        ![DAC Block Diagram](Screenshots/R-2R.png)  
 
 
    - DACs are widely used in audio, sensors, and actuator interfaces.  
