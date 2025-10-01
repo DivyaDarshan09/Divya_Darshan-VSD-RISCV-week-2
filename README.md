@@ -13,6 +13,19 @@ After laying the foundation in Week 1, this week takes a step forward into the w
 
 ---
 
+## Repository Structure
+```bash
+Week-2/
+│── Readme.md 
+│── Part-1_Theory/ 
+│ ├── Readme.md/ 
+│ ├── Screenshots/
+│── Part-2_Labs/ 
+│ ├── readme.md/ 
+│ ├── Screenshots/
+```
+---
+
 ##  What This Week Covers
 Week 2 is divided into two parts:
 
@@ -47,21 +60,7 @@ By the end of Week 2, the goal is to:
 - A clear explanation of SoC fundamentals  
 - Functional simulation of Baby SoC  
 - **GTKWave screenshots** highlighting correct SoC behavior  
-- Short explanations accompanying each result  
-
----
-
-## Repository Structure
-```bash
-Week-2/
-│── Readme.md 
-│── Part-1_Theory/ 
-│ ├── Readme.md/ 
-│ ├── Screenshots/
-│── Part-2_Labs/ 
-│ ├── readme.md/ 
-│ ├── Screenshots/
-```
+- Short explanations accompanying each result
 
 
 ---
