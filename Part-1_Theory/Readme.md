@@ -7,15 +7,10 @@ This week focuses on **Baby SoC fundamentals** as part of research-based learnin
 ##  Table of Contents
 1. [System-on-Chip (SoC)](#system-on-chip-soc)  
 2. [Key Components of a SoC](#key-components-of-a-soc)  
-3. [Types of SoCs](#types-of-socs)  
-   - [Microcontroller-based SoC](#microcontroller-based-soc)  
-   - [Microprocessor-based SoC](#microprocessor-based-soc)  
-   - [Application-specific SoC (ASIC-based)](#application-specific-soc-asic-based)  
+3. [Types of SoCs](#types-of-socs)   
 4. [SoC Design Flow](#soc-design-flow)  
 5. [Introduction to VSD Baby SoC](#introduction-to-vsd-baby-soc)  
-   - [RVMyth SoC](#rvmyth-soc)  
-   - [PLL (Phase-Locked Loop)](#pll-phase-locked-loop)  
-   - [DAC (Digital-to-Analog Converter)](#dac-digital-to-analog-converter)  
+   - [Main Components](#main-components)   
 6. [Summary](#summary)  
 
 ---
@@ -107,7 +102,7 @@ The SoC design flow defines the stages from conceptualization to implementation.
 - The SoC integrates both **digital and analog components**, making it suitable for functional modeling and early verification of system designs.
 
 
-**Main Components:**
+### Main Components
 
 1. **RVMyth SoC** – *RISC-V Microprocessor for You in 30 Minutes*  
    - A small RISC-V processor designed for rapid educational deployment.  
