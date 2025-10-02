@@ -5,13 +5,13 @@ This week focuses on **Baby SoC fundamentals** as part of research-based learnin
 ---
 
 ##  Table of Contents
-1. [System-on-Chip (SoC)](#system-on-chip-soc)  
-2. [Key Components of a SoC](#key-components-of-a-soc)  
-3. [Types of SoCs](#types-of-socs)   
-4. [SoC Design Flow](#soc-design-flow)  
+1. [System-on-Chip (SoC)](#1-system-on-chip-soc)  
+2. [Key Components of a SoC](#2-key-components-of-a-soc)   
+3. [Types of SoCs](#3-types-of-socs)     
+4. [SoC Design Flow](#4-soc-design-flow)   
 5. [Introduction to VSD Baby SoC](#introduction-to-vsd-baby-soc)  
    - [Main Components](#main-components)   
-6. [Summary](#summary)  
+6. [Summary](#6-summary)  
 
 ---
 ## 1. System-on-Chip (SoC)
