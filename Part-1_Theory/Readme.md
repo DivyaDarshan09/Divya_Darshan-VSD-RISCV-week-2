@@ -4,6 +4,21 @@ This week focuses on **Baby SoC fundamentals** as part of research-based learnin
 
 ---
 
+##  Table of Contents
+1. [System-on-Chip (SoC)](#1-system-on-chip-soc)  
+2. [Key Components of a SoC](#2-key-components-of-a-soc)  
+3. [Types of SoCs](#3-types-of-socs)  
+   3.1 [Microcontroller-based SoC](#31-microcontroller-based-soc)  
+   3.2 [Microprocessor-based SoC](#32-microprocessor-based-soc)  
+   3.3 [Application-specific SoC (ASIC-based)](#33-application-specific-soc-asic-based)  
+4. [SoC Design Flow](#4-soc-design-flow)  
+5. [Introduction to VSD Baby SoC](#5-introduction-to-vsd-baby-soc)  
+   5.1 [RVMyth SoC](#51-rvmyth-soc)  
+   5.2 [PLL (Phase-Locked Loop)](#52-pll-phase-locked-loop)  
+   5.3 [DAC (Digital-to-Analog Converter)](#53-dac-digital-to-analog-converter)  
+6. [Summary](#6-summary)  
+
+---
 ## 1. System-on-Chip (SoC)
 
 A **System-on-Chip (SoC)** is a **mini computer integrated on a single chip**, combining CPU, memory, peripherals, and interconnects into a compact form. This integration allows devices to perform complex tasks while maintaining small form factor and low power consumption. SoCs are widely used in mobile devices, embedded systems, and IoT applications due to their versatility and efficiency.
