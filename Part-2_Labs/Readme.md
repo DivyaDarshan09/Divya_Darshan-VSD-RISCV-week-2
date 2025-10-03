@@ -145,15 +145,21 @@ This is an essential step to **validate the design before and after synthesis**.
 | **RV_TO_DAC[9:0]**      | Register `r17` (RVMYTH)  | Updates sequentially with instruction execution. This is the data sent to the DAC.          |
 | **OUT (DAC, real type)** | DAC                        | Shows accurate analog waveform. This is the signal to observe for real analog output.        |
 
-**Note:**
-  
-Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a `wire`, which behaves digitally in simulation. To observe analog behavior, use `DAC.OUT`.
-
+---
 
 ### Post Synthesis simulation
+
 ![post_synth_sim](Screenshots/post_synth_sim.jpg)
 
 - The post synthesis simulation matches the pre synthesis simulation perfectly.
 - Thus the synthesis of `VSDBabySoC` is passed without any errors.
 
 ---
+
+**Important Note:**
+  
+Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a `wire`, which behaves digitally in simulation. To observe analog behavior, we need to use `DAC.OUT`.
+
+![out comparision](Screenshots/out_comparision.jpg)
+
+- The above picture proves that the `VSDBabySoC.OUT` shows digital behaviour (which is `1's` and `0's`), whereas `DAC.OUT` shows analog behaviour but if we carefully note it , the continuous signal is made up of small rise and fall steps which together seen as a continuous signal.
