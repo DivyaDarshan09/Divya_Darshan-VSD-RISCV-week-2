@@ -1,6 +1,6 @@
 # Week 2 - RISC-V SoC Tapeout Journey (Divya Darshan)
 
-[![Repo Size](https://img.shields.io/github/repo-size/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-1)](https://github.com/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-1)
+[![Repo Size](https://img.shields.io/github/repo-size/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-1)](https://github.com/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-2)
 [![Owner](https://img.shields.io/badge/Owner-DivyaDarshan09-red)](https://github.com/DivyaDarshan09)
 
 ---
