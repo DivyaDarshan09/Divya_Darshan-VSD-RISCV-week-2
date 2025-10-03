@@ -59,9 +59,9 @@ Here’s a simple example:
 
 The DAC reads `r17` values and converts them using the formula:
 
-\[
-\text{OUT} = VREFL + \frac{D}{1023} \times (VREFH - VREFL)
-\]
+```bash
+OUT = VREFL + D/1023 * (VREFH - VREFL)
+```
 
 - `VREFL` and `VREFH` define the output voltage range.  
 - `D` is the 10-bit value from `r17`.  
@@ -129,11 +129,10 @@ This is an essential step to **validate the design before and after synthesis**.
 | **RV_TO_DAC[9:0]**      | Register `r17` (RVMYTH)  | Updates sequentially with instruction execution. This is the data sent to the DAC.          |
 | **OUT (DAC, real type)** | DAC                        | Shows accurate analog waveform. This is the signal to observe for real analog output.        |
 
-**Note:**  
-```
+**Note:**
+```tree  
 Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a `wire`, which behaves digitally in simulation. To observe analog behavior, use `DAC.OUT`.
 ```
----
 
 ### Post Synthesis simulation
 ![post_synth_sim](Screenshots/post_synth_sim.jpg)
