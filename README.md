@@ -21,7 +21,7 @@ Week-2/
 │ ├── Readme.md/ 
 │ ├── Screenshots/
 │── Part-2_Labs/ 
-│ ├── readme.md/ 
+│ ├── Readme.md/ 
 │ ├── Screenshots/
 ```
 ---
