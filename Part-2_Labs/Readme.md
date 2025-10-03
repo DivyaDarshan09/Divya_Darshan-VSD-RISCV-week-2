@@ -163,3 +163,5 @@ Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a
 ![out comparision](Screenshots/out_comparision.jpg)
 
 - The above picture proves that the `VSDBabySoC.OUT` shows digital behaviour (which is `1's` and `0's`), whereas `DAC.OUT` shows analog behaviour but if we carefully note it , the continuous signal is made up of small rise and fall steps which together seen as a continuous signal.
+
+---
