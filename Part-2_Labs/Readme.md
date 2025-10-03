@@ -109,10 +109,26 @@ This is an essential step to **validate the design before and after synthesis**.
   
   The result of the simulation (i.e. `pre_synth_sim.vcd`) will be stored in the `output/pre_synth_sim` directory.
 
-  4. **We can see the waveforms by following command:**
+  4. **Now for `Post_synth_sim.vcd`:**
+
+  ```bash
+  $ cd VSDBabySoC
+  $ make post_synth_sim
+  ```
+
+  The result of the simulation (i.e. `post_synth_sim.vcd`) will be stored in the `output/post_synth_sim` directory.
+
+  5. **We can see the waveforms by following command:**
+
+  - **For pre simulation wave** 
 
   ```bash
   $ gtkwave output/pre_synth_sim/pre_synth_sim.vcd
+  ```
+  - **For Post simulation wave**
+
+  ```bash
+  $ gtkwave output/post_synth_sim/post_synth_sim.vcd
   ```
   
   Two most important signals are `CLK` and `OUT`. The `CLK` signal is provided by the PLL and the `OUT` is the output of the DAC model. 
