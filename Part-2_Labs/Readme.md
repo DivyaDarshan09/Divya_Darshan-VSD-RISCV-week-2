@@ -146,9 +146,9 @@ This is an essential step to **validate the design before and after synthesis**.
 | **OUT (DAC, real type)** | DAC                        | Shows accurate analog waveform. This is the signal to observe for real analog output.        |
 
 **Note:**
-```tree  
+  
 Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a `wire`, which behaves digitally in simulation. To observe analog behavior, use `DAC.OUT`.
-```
+
 
 ### Post Synthesis simulation
 ![post_synth_sim](Screenshots/post_synth_sim.jpg)
