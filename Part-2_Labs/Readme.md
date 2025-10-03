@@ -92,14 +92,14 @@ This is an essential step to **validate the design before and after synthesis**.
   $ pip3 install pyyaml click sandpiper-saas
   ```
 
-  2. Now we can clone this repository in an arbitrary directory (we'll choose home directory here):
+  2. **Now we can clone this repository in an arbitrary directory (we'll choose home directory here):**
 
   ```bash
   $ cd ~
   $ git clone https://github.com/manili/VSDBabySoC.git
 
   ```
- 3. It's time to make the `pre_synth_sim.vcd`:
+ 3. **It's time to make the `pre_synth_sim.vcd`:**
 
   ```bash
   $ cd VSDBabySoC
@@ -109,7 +109,7 @@ This is an essential step to **validate the design before and after synthesis**.
   
   The result of the simulation (i.e. `pre_synth_sim.vcd`) will be stored in the `output/pre_synth_sim` directory.
 
-  4. We can see the waveforms by following command:
+  4. **We can see the waveforms by following command:**
 
   ```bash
   $ gtkwave output/pre_synth_sim/pre_synth_sim.vcd
@@ -130,7 +130,7 @@ This is an essential step to **validate the design before and after synthesis**.
 | **OUT (DAC, real type)** | DAC                        | Shows accurate analog waveform. This is the signal to observe for real analog output.        |
 
 **Note:**  
-```bash
+```
 Real variables are not supported during synthesis, so `VSDBabySoC.OUT` must be a `wire`, which behaves digitally in simulation. To observe analog behavior, use `DAC.OUT`.
 ```
 ---
