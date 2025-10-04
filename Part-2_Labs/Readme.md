@@ -133,8 +133,15 @@ This is an essential step to **validate the design before and after synthesis**.
   
   Two most important signals are `CLK` and `OUT`. The `CLK` signal is provided by the PLL and the `OUT` is the output of the DAC model. 
 
-   ![pre_synth_sim_log](Screenshots/pre_synth_sim_log.jpg)
 ---
+
+ **Pre-Synthesis simulation log screenshot:**
+
+   ![pre_synth_sim_log](Screenshots/pre_synth_sim_log.jpg)
+
+   ---
+
+**Pre-Synthesis gtkwave Screenshot:**
 
    ![pre_synth_sim](Screenshots/pre_synth_sim.jpg)
 
@@ -152,9 +159,13 @@ This is an essential step to **validate the design before and after synthesis**.
 
 ### Post Synthesis simulation
 
+**Post-Synthesis simulation log screenshot:**
+
 ![post_synth_sim_log](Screenshots/post_synth_sim_log.jpg)
 
 ---
+
+**Pre-Synthesis gtkwave Screenshot:**
 
 ![post_synth_sim](Screenshots/post_synth_sim.jpg)
 
