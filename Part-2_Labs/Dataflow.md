@@ -1,6 +1,6 @@
 # VSDBabySoC – Data Flow Between Modules
 
-VSDBabySoC integrates a **RISC-V processor (RVMYTH)**, a **DAC (AVSDDAC)**, and a **PLL (AVSDPLL)** to convert digital computations into analog output.
+VSDBabySoC integrates a **RISC-V processor (rvmyth.v)**, a **DAC (avsddac.v)**, and a **PLL (avsdpll.v)** to convert digital computations into analog output.
 
 ---
 
@@ -23,7 +23,6 @@ avsddpll pll_inst(
 
 ## Pipeline Stages
 
-```bash
 | Stage | Module | Operation |
 |--------|---------|------------|
 | @0–@1 | IMEM | Fetch instruction |
@@ -32,7 +31,7 @@ avsddpll pll_inst(
 | @3 | ALU | Execute instruction |
 | @4–@5 | DMEM | Load/Store data |
 | @3 | RF | Write result back |
-```
+
 ---
 
 ## Role of x17 (R17) in Driving the DAC
