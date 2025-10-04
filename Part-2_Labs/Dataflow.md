@@ -38,7 +38,7 @@ avsddpll pll_inst(
 
 In VSDBabySoC, **x17 (register 17)** serves as the bridge between the CPU computations and the analog output DAC.
 
-## How x17 is Updated
+### How x17 is Updated
 
 1. **Instruction Selection**  
 
@@ -69,7 +69,7 @@ rf_wr_data  = result;     // ALU or memory result
 
 ---
 
-## How DAC Reads x17
+### How DAC Reads x17
 
 - The DAC takes the lower 10 bits of x17 as its input.
 
@@ -87,7 +87,7 @@ OUT = VREFL + (D / 1023.0) * (VREFH - VREFL);
 ```
 ---
 
-## Summary of x17 → DAC Flow
+### Summary of x17 → DAC Flow
 
 - Instruction executes and targets x17 (rd = 17).
 - ALU computes the result based on instruction operands.
