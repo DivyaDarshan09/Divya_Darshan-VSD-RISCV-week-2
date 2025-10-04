@@ -37,6 +37,8 @@ In essence, VSDBabySoC shows how a small digital CPU can communicate with real-w
 ---
 
 ## Project Directory
+
+```tree
 VSDBabySoC/
 ├── src/
 │   ├── include/
@@ -50,7 +52,7 @@ VSDBabySoC/
 │   │   └── testbench.v       # Testbench for simulation
 └── output/
 └── compiled_tlv/         # Holds compiled intermediate files if needed
-
+```
 ---
 
 ## How It Works
